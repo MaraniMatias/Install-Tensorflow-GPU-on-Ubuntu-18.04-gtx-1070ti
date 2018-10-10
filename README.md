@@ -75,6 +75,14 @@ sudo apt-get install python3-pip python3-dev
 sudo pip3 install -U tensorflow-gpu
 ```
 
+## tensorflow-gpu and keras
+
+Install Anaconda
+```shell
+conda create -n tensorflow_gpuenv tensorflow-gpu keras
+source activate tensorflow_gpuenv
+```
+
 ## I read
 
 - [www.youtube.com/watch?v=tZYIOrJ07LA](https://www.youtube.com/watch?v=tZYIOrJ07LA)
