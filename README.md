@@ -67,17 +67,16 @@ sudo dpkg -i libcudnn7-dev_7.2.1.38-1+cuda9.0_amd64.deb
 sudo dpkg -i libcudnn7-doc_7.2.1.38-1+cuda9.0_amd64.deb
 ```
 
-### Step 4: pip install tensorflow-gpu
+### Step 4: Insstall tensorflow-gpu
 
+#### PIP
 - Run the following command to install tensorflow
 ```shell
 sudo apt-get install python3-pip python3-dev
 sudo pip3 install -U tensorflow-gpu
 ```
-
-## tensorflow-gpu and keras
-
-Install Anaconda
+#### Conda
+- Install Anaconda
 ```shell
 conda create -n tensorflow_gpuenv tensorflow-gpu keras
 source activate tensorflow_gpuenv
