@@ -69,22 +69,6 @@ export PATH=/usr/local/cuda-10.0/bin${PATH:+:$PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 ```
 
-### Step 3: Install CUDNN 7.2.1
-
-- Go to https://developer.nvidia.com/cudnn
-- Select cuDNN 7.2.1 for CUDA 9.0
-- Download
-```
-libcudnn7_7.2.1.38-1+cuda9.0_amd64.deb
-libcudnn7-dev_7.2.1.38-1+cuda9.0_amd64.deb
-libcudnn7-doc_7.2.1.38-1+cuda9.0_amd64.deb
-```
-- Install
-```shell
-sudo dpkg -i libcudnn7_7.2.1.38-1+cuda9.0_amd64.deb
-sudo dpkg -i libcudnn7-dev_7.2.1.38-1+cuda9.0_amd64.deb
-sudo dpkg -i libcudnn7-doc_7.2.1.38-1+cuda9.0_amd64.deb
-```
 ### Step 3: Install CUDNN
 
 - Go to https://developer.nvidia.com/cudnn
