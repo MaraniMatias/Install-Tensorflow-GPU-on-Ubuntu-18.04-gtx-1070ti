@@ -5,7 +5,7 @@ Quick install guide for Ubuntu 18.08
 
 - Ubuntu: 18.04
 - NVIDIA: GeForce GTX 1070ti
-- Driver Version: 390.48
+- Driver Version: 410.48
 - CUDA Toolkit: 10.0
 - CUDNN: 7.3
 
